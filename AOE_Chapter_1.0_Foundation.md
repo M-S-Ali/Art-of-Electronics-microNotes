@@ -74,13 +74,81 @@ Oscilloscope and other tools like multimeter help in visualizing voltage and cur
 
 **Note: *Rth of Voltage divider is R1 and R2 parallel making it a bad choice of power source***
 
+### Measurement tools
+- Oscilloscope
+- Logic Analyses
+- multimeter
+- Points to Note
+    - Voltage Burden
+    - Using Voltmeter and Ammeter for opposite application
+    - Sensitive range 0.2V-2V resistance lower in DMM and for less sensitive range resistance high
+
 ### Equivalent Source Resistance and Circuit Loading
-- 
+- More source resistance = heavy drops in voltage with current
+- Load with resistance comparable or less than the source resistance will drop the source voltage considerably known as circuit Loading
+- Areas where R load = R source, power transfer applications, transmission lines, radio frequencies, etc
+- Load resistance generally very high than source resistance.
 
+### Small-Signal Resistance
+- aka Incremental resistance, dynamic resistance
+- applicable where I and V are not proportional
 
+### Small-Signal Resistance with Zener Diode
+- ΔVo = ΔI x dynamic resistance
+- voltage divider equation with R2 as dynamic resistance for ΔVo and ΔVin relation.
+- low voltage zener poor performance
+- two terminal voltage references available
+- If R in zener selected as high - small current - high dynamic resistance
+- If R in zener selected as low - more current - zener heating
 
+### Signals
+- Sinusoidal Signal
+    - V = Asin(2pi f t)
+    - most popular because its the solution to many linear differential equation that describe many natural phenomena including certain circuit
+    - Linear circuit
+    - No periodic signal other than sine always produce a sine when driving linear circuit
+    - frequency response
+    - exotic waveguides, strip-lines
+- Ramp
+- Periodic Ramp - Sawtooth
+- Triangle
+- Noise 
+    - Band-limited white gaussian noise
+    - Johnson noise or Nyquist Noise
+- Square wave
+    - not perfectly square rise time 10% to 90%
+- Pulses
+    - pulse width and amplitude.
+    - when in periodic it can have pulse repetition rate or frequency and duty cycle
+- Steps
+- Spikes
 
+### Signal Amplitude and Decibel
+- peak to peak, rms
+- decibel dB = 20 log A2/A1
+- common references in dB - 0dBV (1V rms), radio frequency 0.22V rms, audio frequency 0.78V rms
+- also a reference is noise voltage from a resistor in room temperature
 
+### Logic Levels
+- HIGH and LOW or 0 and 1
+- Need to distinguish
+- extensive in digital Electronics
 
-
+### Signal sources
+- Signal Generator
+    - sine wave oscillator
+    - attenuation, modulation
+    - sweep generator 
+- Pulse Generator
+    - frequency or repetitive rate
+    - pulse width
+    - rise time 
+    - polarity 
+    - amplitude
+- Function Generator
+    - sine, triangle, square, limited pulse
+    - wide frequencies
+    - sweep options
+    - modulation options
+    - most flexible signal source
 
