@@ -18,7 +18,7 @@
 - Rate of flow of electric charge
 - uA, mA, A
 
-Oscilloscope and other tools like multimeter help in visualizing voltage and current. Other engineers envious of visualization tools we poses.
+**Note: *Oscilloscope and other tools like multimeter help in visualizing voltage and current. Other engineers envious of visualization tools we poses***
 
 ### Simple rules on Voltage and Current
 - Kirchhoff's Current Law
