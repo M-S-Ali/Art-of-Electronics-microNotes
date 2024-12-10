@@ -23,7 +23,48 @@
 - pF, nF, uF, mF
 - U = 1/2 CV^2
 - Capacitors in Series and Capacitors in Parallel
+- Real Capacitor features causing issues in demanding Applications
+    - series resistance (frequency dependent)
+    - parallel resistance
+    - series inductance
+    - dielectric absorption or memory effect
 
 **Note: *Varactors - Voltage variable capacitor made from a PN junction***
 
 ### RC circuit
+- Time constant - RC - 37% - 63%
+- 5 RC general rule of thumb for complete decay or complete charging 
+- 10% to 90% - 2.2RC
+- time taken to reach V = RC ln (Vf/Vf-V)
+- Try to solve circuit using thevenin's as going for calculus not always worth it 
+- example
+    - time delay circuit
+    - one minute power circuit 
+
+### RC differentiators
+- I = C dv/dt
+- dVo/dt << dvi/dt
+- RC very small but R big to avoid signal loading
+- detecting leading edges and trailing edges
+- converts transitions to spikes
+
+**Note: *Slew Rate - dv/dt***
+
+**Note: *Comparator output bounce around a bit when input crosses the reference***
+
+**Note: *Bypass DC Supply generally with 0.1uF to 10uF***
+
+### RC integrators  
+- keep v<<vin
+- RC large
+- exponential to ramp
+
+### Ramp Generator
+- Applications
+    - timing circuit
+    - waveform and function generation
+    - oscilloscope sweep circuits
+    - analog digital conversion
+- current source charging capacitor - ramp generation
+
+
