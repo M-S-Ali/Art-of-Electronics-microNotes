@@ -67,4 +67,13 @@
     - analog digital conversion
 - current source charging capacitor - ramp generation
 
+### Inductors
+- V = L dI/dt
+- U = 1/2 LI^2
+- Current produce magnetic field and Change in voltage produce voltage
+- Lenz's Law
+- Volt-Second balance rule
+- Capacitors common as practical capacitor close to Ideal
+
+
 
