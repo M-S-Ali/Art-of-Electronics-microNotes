@@ -74,6 +74,17 @@
 - Lenz's Law
 - Volt-Second balance rule
 - Capacitors common as practical capacitor close to Ideal
+- Winding resistance, Core loss, Self Capacitance
+- L directly proportional to square of turns
+- L = K ((d^2 x n^2)/(18d+40l))
+- Solenoid
+- Iron - Alloy, Lamination, Powder
+- Ferrite
+- Permeability
+- Used in RF Chokes, RF Tuning, Power Supplies, Transformers
+- Transformers
+- Parallel inductance or Magnetizing inductance, Series Inductance or Leakage Inductance
+
 
 
 
