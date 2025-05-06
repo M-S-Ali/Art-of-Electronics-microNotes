@@ -83,7 +83,7 @@
 - Permeability
 - Used in RF Chokes, RF Tuning, Power Supplies, Transformers
 - Transformers
-- Parallel inductance or Magnetizing inductance, Series Inductance or Leakage Inductance
+- Parallel inductance or Magnetizing inductance, Series Inductance or Leakage Inductance (test)
 
 
 
